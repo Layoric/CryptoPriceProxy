@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoPriceProxy", "CryptoPriceProxy\CryptoPriceProxy.csproj", "{C6066479-CD33-419F-A8DD-5F17255B4988}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyTest", "ProxyTest\ProxyTest.csproj", "{B547A0DE-1F6F-40E3-9D9D-575984F8A812}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6066479-CD33-419F-A8DD-5F17255B4988}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6066479-CD33-419F-A8DD-5F17255B4988}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6066479-CD33-419F-A8DD-5F17255B4988}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6066479-CD33-419F-A8DD-5F17255B4988}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B547A0DE-1F6F-40E3-9D9D-575984F8A812}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B547A0DE-1F6F-40E3-9D9D-575984F8A812}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B547A0DE-1F6F-40E3-9D9D-575984F8A812}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B547A0DE-1F6F-40E3-9D9D-575984F8A812}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
