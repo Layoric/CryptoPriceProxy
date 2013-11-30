@@ -15,5 +15,13 @@ namespace ProxyTest
             var latest = client.GetLatest();
             Assert.IsTrue(latest != null && latest.FromCurrencyCode == "BTC");
         }
+
+        [TestMethod]
+        public void LitecoinPriceClientTest()
+        {
+            ICoinPriceClient client = new LiteCoinPriceClient();
+            var latest = client.GetLatest();
+            Assert.IsTrue(latest != null && latest.FromCurrencyCode == "LTC");
+        }
     }
 }

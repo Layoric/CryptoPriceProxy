@@ -57,6 +57,7 @@
     <Compile Include="CryptoExtensions.cs" />
     <Compile Include="ICoinPriceClient.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ResponseTypes\BtcLiteCoinDtoResponse.cs" />
     <Compile Include="ResponseTypes\MtGoxDtoResponse.cs" />
   </ItemGroup>
   <ItemGroup>

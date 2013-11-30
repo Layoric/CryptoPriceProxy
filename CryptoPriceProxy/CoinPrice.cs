@@ -16,14 +16,14 @@ namespace CryptoPriceProxy
     {
         public string ToCurrencyCode { get; set; }
         public string FromCurrencyCode { get; set; }
-        public decimal Low { get; set; }
-        public decimal Average { get; set; }
-        public decimal High { get; set; }
+        public double Low { get; set; }
+        public double Average { get; set; }
+        public double High { get; set; }
         public string DisplayValue { get; set; }
-        public decimal Buy { get; set; }
-        public decimal Sell { get; set; }
-        public decimal LastTrade { get; set; }
+        public double Buy { get; set; }
+        public double Sell { get; set; }
+        public double LastTrade { get; set; }
         public DateTime UpdatDateTime { get; set; }
-        public decimal Volume { get; set; }
+        public double Volume { get; set; }
     }
 }
