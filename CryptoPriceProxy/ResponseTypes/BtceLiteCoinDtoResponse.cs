@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace CryptoPriceProxy.ResponseTypes
 {
-    public class BtcLiteCoinDto
+    public class BtceLiteCoinDto
     {
-        public BtcLiteCoinDtoResponse ticker { get; set; }
+        public BtceLiteCoinDtoResponse ticker { get; set; }
     }
 
-    public class BtcLiteCoinDtoResponse
+    public class BtceLiteCoinDtoResponse
     {
         public double high { get; set; }
         public double low { get; set; }

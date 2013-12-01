@@ -17,11 +17,11 @@ namespace CryptoPriceProxy.Clients
         public CoinPrice GetLatest()
         {
             CoinPrice result;
-            BtcLiteCoinDto dto;
+            BtceLiteCoinDto dto;
 
             try
             {
-                dto = client.Get<BtcLiteCoinDto>("/api/2/ltc_usd/ticker");
+                dto = client.Get<BtceLiteCoinDto>("/api/2/ltc_usd/ticker");
             }
             catch (Exception e)
             {

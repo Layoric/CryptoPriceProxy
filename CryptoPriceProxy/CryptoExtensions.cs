@@ -27,7 +27,7 @@ namespace CryptoPriceProxy
             return result;
         }
 
-        public static CoinPrice ToCoinPrice(this BtcLiteCoinDtoResponse dto, string toCurrency)
+        public static CoinPrice ToCoinPrice(this BtceLiteCoinDtoResponse dto, string toCurrency)
         {
             var result = new CoinPrice();
             result.Average = dto.avg;
